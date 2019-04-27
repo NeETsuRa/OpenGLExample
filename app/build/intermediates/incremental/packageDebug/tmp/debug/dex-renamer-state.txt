@@ -1,0 +1,4 @@
+#Sat Apr 27 23:03:32 CEST 2019
+base.0=D\:\\Development Proeckts\\OpenGlDiploma\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+path.0=classes.dex
+renamed.0=classes.dex

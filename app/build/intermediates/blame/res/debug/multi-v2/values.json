@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Development Proeckts\\OpenGlDiploma\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "D:\\Development Proeckts\\OpenGlDiploma\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "4,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "130,59",
+                        "endColumns": "50,69",
+                        "endOffsets": "176,124"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,106",
+                        "endColumns": "50,69",
+                        "endOffsets": "101,171"
+                    }
+                }
+            ]
+        }
+    ]
+}

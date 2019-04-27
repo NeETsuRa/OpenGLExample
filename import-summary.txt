@@ -1,0 +1,95 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Risky Project Location:
+-----------------------
+The tools *should* handle project locations in any directory. However,
+due to bugs, placing projects in directories containing spaces in the
+path, or characters like ", ' and &, have had issues. We're working to
+eliminate these bugs, but to save yourself headaches you may want to
+move your project to a location where this is not a problem.
+D:\Development Proeckts\OpenGlDiploma
+              -                      
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* OpenGlDiploma\
+* OpenGlDiploma\.classpath
+* OpenGlDiploma\.project
+* OpenGlDiploma\.settings\
+* OpenGlDiploma\.settings\org.eclipse.jdt.core.prefs
+* OpenGlDiploma\AndroidManifest.xml
+* OpenGlDiploma\bin\
+* OpenGlDiploma\bin\classes\
+* OpenGlDiploma\bin\classes\ravnjak\
+* OpenGlDiploma\bin\classes\ravnjak\nejc\
+* OpenGlDiploma\bin\classes\ravnjak\nejc\GLRenderer.class
+* OpenGlDiploma\bin\classes\ravnjak\nejc\GLSurface.class
+* OpenGlDiploma\bin\classes\ravnjak\nejc\OpenGlDiploma.class
+* OpenGlDiploma\bin\classes\ravnjak\nejc\OpenGlDiplomaActivity.class
+* OpenGlDiploma\bin\classes\ravnjak\nejc\R$attr.class
+* OpenGlDiploma\bin\classes\ravnjak\nejc\R$drawable.class
+* OpenGlDiploma\bin\classes\ravnjak\nejc\R$id.class
+* OpenGlDiploma\bin\classes\ravnjak\nejc\R$layout.class
+* OpenGlDiploma\bin\classes\ravnjak\nejc\R$string.class
+* OpenGlDiploma\bin\classes\ravnjak\nejc\R.class
+* OpenGlDiploma\bin\classes\ravnjak\nejc\kocka.class
+* OpenGlDiploma\bin\classes\ravnjak\nejc\krog.class
+* OpenGlDiploma\bin\classes\ravnjak\nejc\krogla.class
+* OpenGlDiploma\bin\classes\ravnjak\nejc\trikotnik.class
+* OpenGlDiploma\gen\
+* OpenGlDiploma\gen\ravnjak\
+* OpenGlDiploma\gen\ravnjak\nejc\
+* OpenGlDiploma\gen\ravnjak\nejc\R.java
+* OpenGlDiploma\proguard.cfg
+* OpenGlDiploma\project.properties
+* OpenGlDiploma\res\
+* OpenGlDiploma\res\drawable-hdpi\
+* OpenGlDiploma\res\drawable-hdpi\ic_launcher.png
+* OpenGlDiploma\res\drawable-ldpi\
+* OpenGlDiploma\res\drawable-ldpi\ic_launcher.png
+* OpenGlDiploma\res\drawable-mdpi\
+* OpenGlDiploma\res\drawable-mdpi\ic_launcher.png
+* OpenGlDiploma\res\layout\
+* OpenGlDiploma\res\layout\main.xml
+* OpenGlDiploma\res\values\
+* OpenGlDiploma\res\values\strings.xml
+* OpenGlDiploma\src\
+* OpenGlDiploma\src\ravnjak\
+* OpenGlDiploma\src\ravnjak\nejc\
+* OpenGlDiploma\src\ravnjak\nejc\GLRenderer.java
+* OpenGlDiploma\src\ravnjak\nejc\OpenGlDiploma.java
+* OpenGlDiploma\src\ravnjak\nejc\OpenGlDiplomaActivity.java
+* OpenGlDiploma\src\ravnjak\nejc\kocka.java
+* OpenGlDiploma\src\ravnjak\nejc\krog.java
+* OpenGlDiploma\src\ravnjak\nejc\krogla.java
+* OpenGlDiploma\src\ravnjak\nejc\trikotnik.java
+* proguard.cfg
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
